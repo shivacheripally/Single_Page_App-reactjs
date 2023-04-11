@@ -22,9 +22,9 @@ export default function App() {
 
         <div className="content">
           <Routes>
-            <Route exact path="/" element={Home} />
-            <Route exact path="/stuff" element={Stuff} />
-            <Route exact path="/contact" element={Contact} />
+            <Route exact path="/" element={<Home/>} />
+            <Route path="/stuff" element={<Stuff/>} />
+            <Route path="/contact" element={<Contact/>} />
           </Routes>
         </div>
       </div>
