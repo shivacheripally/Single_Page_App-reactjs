@@ -10,6 +10,10 @@ export default function App() {
         <li><a href="">Stuff</a></li>
         <li><a href="">Contact</a></li>
       </ul>
+
+      <div className="content">
+        
+      </div>
     </div>
   );
 }
